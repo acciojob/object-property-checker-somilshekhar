@@ -1,7 +1,9 @@
 const sampleObject = { red: "#FF0000", green: "#00FF00", white: "#FFFFFF" };
 
 function hasKey(key) {
-  //   write your code here
+  //   write your code 
+	 return sampleObject.hasOwnProperty(key);
+
 }
 
 // Do not change the code below
